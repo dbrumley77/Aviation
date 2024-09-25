@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A970DDF9-24D7-46E7-A59F-E5DB162D1202}|Aviation.csproj|c:\\users\\dougl\\onedrive\\desktop\\projects\\aviation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A970DDF9-24D7-46E7-A59F-E5DB162D1202}|Aviation.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A970DDF9-24D7-46E7-A59F-E5DB162D1202}|Aviation.csproj|c:\\users\\dougl\\onedrive\\desktop\\projects\\aviation\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A970DDF9-24D7-46E7-A59F-E5DB162D1202}|Aviation.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T23:02:59.264Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-25T23:34:51.904Z",
               "EditorCaption": ""
             }
           ]
