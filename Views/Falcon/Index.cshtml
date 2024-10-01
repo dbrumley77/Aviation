@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Falcon>
+
+<h2>Falcon</h2>
+<table class="table">
+    <tr>
+        <th>Manufacturer</th>
+        <th>Airframe</th>
+        <th>Aircraft Type</th>
+        <th>Crew</th>
+        <th>Seating Capacity</th>
+        <th>Length</th>
+        <th>Wing Span</th>
+        <th>Height</th>
+        <th>Power Plant</th>
+        <th>Max Speed</th>
+        <th>Distance/Range</th>
+        <th>Ceiling</th>
+    </tr>
+
+    @foreach (var product in @Model)
+    {
+        <tr>
+            <td>@product.Manufacturer</td>
+            <td>@product.Airframe</td>
+            <td>@product.AircraftType</td>
+            <td>@product.Crew</td>
+            <td>@product.SeatingCapacity</td>
+            <td>@product.Length</td>
+            <td>@product.WingSpan</td>
+            <td>@product.Height</td>
+            <td>@product.PowerPlant</td>
+            <td>@product.MaxSpeed</td>
+            <td>@product.DistanceRange</td>
+            <td>@product.Ceiling</td>
+        </tr>
+    }
+
+</table>

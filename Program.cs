@@ -13,12 +13,14 @@ namespace Aviation
             //IOC Data
             builder.Services.AddScoped<IDbConnection>((s) =>
             {
-                IDbConnection conn = new MySqlConnection(builder.Configuration.GetConnectionString("bestbuy"));
+                IDbConnection conn = new MySqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"));
                 conn.Open();
                 return conn;
             });
+            //IOC Data End
 
-            builder.Services.AddTransient<IProductRepository, ProductRepository>();  //Constructor Injection
+            builder.Services.AddTransient<IFalconRepository, FalconRepository>();  //Constructor Injection 
+
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
