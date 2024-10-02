@@ -1,0 +1,57 @@
+﻿@model Falcon
+
+<h2>Create a New Falcon Aircraft</h2>
+<br/>
+<br/>
+                        <!--Method               Controller   Action-->
+@using (Html.BeginForm("InsertFalconToDatabase", "Falcon", "Post"))
+{
+    
+    
+    <!--   LabelPropertyModel-->
+    <label asp-for="Airframe" class="control-label">Airframe</label>
+    <!--<input>=TextBox for userInput-->
+    <input type="text" name="Airframe" class="form-control" value="@Model.Airframe" />
+
+    <label asp-for="Manufacturer" class="control-label">Manufacturer</label>
+    <input type="text" name="Manufacturer" class="form-control" value="@Model.Manufacturer" />
+
+    <label asp-for="Aircraft_Type" class="control-label">Aircraft_Type</label>
+    <input type="text" name="Aircraft_Type" class="form-control" value="@Model.Aircraft_Type" />
+
+    <label asp-for="Crew" class="control-label">Crew</label>
+    <input type="text" name="Crew" class="form-control" value="" />
+
+    <label asp-for="Seating_Capacity" class="control-label">Seating_Capacity</label>
+    <input type="text" name="Seating_Capacity" class="form-control" value="" />
+
+    <label asp-for="Length" class="control-label">Length</label>
+    <input type="text" name="Length" class="form-control" value="" />
+
+    <label asp-for="Wingspan" class="control-label">Wingspan</label>
+    <input type="text" name="Wingspan" class="form-control" value="" />
+
+    <label asp-for="Height" class="control-label">Height</label>
+    <input type="text" name="Height" class="form-control" value="" />
+
+    <label asp-for="Powerplant" class="control-label">Powerplant</label>
+    <input type="text" name="Powerplant" class="form-control" value="" />
+
+    <label asp-for="Max_Speed" class="control-label">Max_Speed</label>
+    <input type="text" name="Max_Speed" class="form-control" value="" />
+
+    <label asp-for="Distance_Range" class="control-label">Distance_Range</label>
+    <input type="text" name="Distance_Range" class="form-control" value="" />
+
+    <label asp-for="Ceiling" class="control-label">Ceiling</label>
+    <input type="text" name="Ceiling" class="form-control" value="" />
+
+   
+
+    
+    <br />
+    <br />
+    <input type="submit" value="Create Aircraft" class="btn btn-primary" />
+}
+    <br />
+    <br />

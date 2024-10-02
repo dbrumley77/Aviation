@@ -1,38 +1,61 @@
 ﻿@model IEnumerable<Falcon>
 
-<h2>Falcon</h2>
+
+
+<br />
+<br />
+<br />
+
+<h2>Falcon Database</h2>
+<br />
+<br />
+
+<div style="display: block">
+    <a href="/Falcon/InsertFalcon/">Create a New Falcon</a>
+</div>
+
+<br />
+<br />
+<br />
+
 <table class="table">
     <tr>
+        <th>ID</th>
         <th>Manufacturer</th>
         <th>Airframe</th>
         <th>Aircraft Type</th>
         <th>Crew</th>
         <th>Seating Capacity</th>
         <th>Length</th>
-        <th>Wing Span</th>
+        <th>Wingspan</th>
         <th>Height</th>
-        <th>Power Plant</th>
+        <th>Powerplant</th>
         <th>Max Speed</th>
         <th>Distance/Range</th>
         <th>Ceiling</th>
     </tr>
 
-    @foreach (var product in @Model)
+    @foreach (var plane in @Model)
     {
         <tr>
-            <td>@product.Manufacturer</td>
-            <td>@product.Airframe</td>
-            <td>@product.AircraftType</td>
-            <td>@product.Crew</td>
-            <td>@product.SeatingCapacity</td>
-            <td>@product.Length</td>
-            <td>@product.WingSpan</td>
-            <td>@product.Height</td>
-            <td>@product.PowerPlant</td>
-            <td>@product.MaxSpeed</td>
-            <td>@product.DistanceRange</td>
-            <td>@product.Ceiling</td>
+            <td><a href=/Falcon/ViewFalcon/@plane.FalconID>@plane.FalconID</a></td>
+            <td>@plane.Manufacturer</td>
+            <td>@plane.Airframe</td>
+            <td>@plane.Aircraft_Type</td>
+            <td>@plane.Crew</td>
+            <td>@plane.Seating_Capacity</td>
+            <td>@plane.Length</td>
+            <td>@plane.Wingspan</td>
+            <td>@plane.Height</td>
+            <td>@plane.Powerplant</td>
+            <td>@plane.Max_Speed</td>
+            <td>@plane.Distance_Range</td>
+            <td>@plane.Ceiling</td>
         </tr>
     }
 
 </table>
+
+<br/>
+<br/>
+<br/>
