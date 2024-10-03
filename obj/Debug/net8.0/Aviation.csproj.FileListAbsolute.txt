@@ -49,3 +49,6 @@ C:\Users\dougl\OneDrive\Desktop\projects\Aviation\bin\Debug\net8.0\runtimes\win\
 C:\Users\dougl\OneDrive\Desktop\projects\Aviation\obj\Debug\net8.0\Aviation.csproj.AssemblyReference.cache
 C:\Users\dougl\OneDrive\Desktop\projects\Aviation\obj\Debug\net8.0\Aviation.sourcelink.json
 C:\Users\dougl\OneDrive\Desktop\projects\Aviation\obj\Debug\net8.0\Aviation.csproj.Up2Date
+C:\Users\dougl\OneDrive\Desktop\projects\Aviation\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\dougl\OneDrive\Desktop\projects\Aviation\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\dougl\OneDrive\Desktop\projects\Aviation\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

@@ -10,7 +10,7 @@ namespace Aviation
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            //IOC Data
+            //IOC DataBase
             builder.Services.AddScoped<IDbConnection>((s) =>
             {
                 IDbConnection conn = new MySqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -47,6 +47,10 @@ namespace Aviation
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
+
+            //API 
+
+            var client = new HttpClient();
         }
     }
 }
