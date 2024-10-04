@@ -1,13 +1,13 @@
-﻿@model Falcon
+﻿@model Gulfstream
 
-<h2>Create a New Falcon Aircraft</h2>
-<br/>
-<br/>
-                        <!--Method               Controller   Action-->
-@using (Html.BeginForm("InsertFalconToDatabase", "Falcon", "Post"))
+<h2>Create a New Gulfstream Aircraft</h2>
+<br />
+<br />
+                         <!--Method               Controller   Action-->
+@using (Html.BeginForm("InsertGulfstreamToDatabase", "Gulfstream", "Post"))
 {
-    
-    
+
+
     <!--   LabelPropertyModel-->
     <label asp-for="Airframe" class="control-label">Airframe</label>
     <!--<input>=TextBox for userInput-->
@@ -46,9 +46,9 @@
     <label asp-for="Ceiling" class="control-label">Ceiling</label>
     <input type="text" name="Ceiling" class="form-control" value="" />
 
-   
 
-    
+
+
     <br />
     <br />
     <input type="submit" value="Create Aircraft" class="btn btn-primary" />
@@ -56,4 +56,3 @@
     <br />
     <br />
 }
-   

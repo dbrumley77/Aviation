@@ -20,7 +20,7 @@ namespace Aviation
             //IOC Data End
 
             builder.Services.AddTransient<IFalconRepository, FalconRepository>();  //Constructor Injection 
-
+            builder.Services.AddTransient<IGulfstreamRepository, GulfstreamRepository>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

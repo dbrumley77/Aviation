@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\dougl\OneDrive\Desktop\projects\Aviation
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Airport/Airport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxBaXJwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Airport/GetAirport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxHZXRBaXJwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Falcon/ViewFalcon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFsY29uXFZpZXdGYWxjb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Gulfstream/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VsZnN0cmVhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Gulfstream/InsertGulfstream.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VsZnN0cmVhbVxJbnNlcnRHdWxmc3RyZWFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Gulfstream/UpdateGulfstream.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VsZnN0cmVhbVxVcGRhdGVHdWxmc3RyZWFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Gulfstream/ViewGulfstream.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VsZnN0cmVhbVxWaWV3R3VsZnN0cmVhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Home/Index.cshtml]

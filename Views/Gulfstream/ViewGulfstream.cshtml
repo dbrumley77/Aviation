@@ -1,0 +1,64 @@
+﻿@model Gulfstream
+
+<br />
+<br />
+<br />
+
+<table class="table">
+    <tr>
+        <th>Gulfstream ID</th>
+        <th>Manufacturer</th>
+        <th>Airframe</th>
+        <th>Aircraft Type</th>
+        <th>Crew</th>
+        <th>Seating Capacity</th>
+        <th>Length</th>
+        <th>Wing Span</th>
+        <th>Height</th>
+        <th>Power Plant</th>
+        <th>Max Speed</th>
+        <th>Distance/Range</th>
+        <th>Ceiling</th>
+
+    </tr>
+    <tr>
+
+        <td>@Model.GulfstreamID</td>
+        <td>@Model.Manufacturer</td>
+        <td>@Model.Airframe</td>
+        <td>@Model.Aircraft_Type</td>
+        <td>@Model.Crew</td>
+        <td>@Model.Seating_Capacity</td>
+        <td>@Model.Length</td>
+        <td>@Model.Wingspan</td>
+        <td>@Model.Height</td>
+        <td>@Model.Powerplant</td>
+        <td>@Model.Max_Speed</td>
+        <td>@Model.Distance_Range</td>
+        <td>@Model.Ceiling</td>
+
+    </tr>
+</table>
+
+<br />
+<br />
+<br />
+
+<div style="display: block">
+    <a href="/Gulfstream/UpdateGulfstream/@Model.GulfstreamID">Update this Aircraft</a>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+
+<div style="display: block">
+
+    @using (Html.BeginForm("DeleteGulfstream", "Gulfstream", "Post"))
+    {
+        <input type="hidden" asp-for="GulfstreamID" value="@Model.GulfstreamID" />
+        <input type="submit" onclick="return confirm('Are you sure?')" value="Delete this aircraft" />
+    }
+</div>
