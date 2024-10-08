@@ -18,7 +18,7 @@ namespace Aviation
                 return conn;
             });
             //IOC Data End
-
+                                           //Alais    for    this item(class)
             builder.Services.AddTransient<IFalconRepository, FalconRepository>();  //Constructor Injection 
             builder.Services.AddTransient<IGulfstreamRepository, GulfstreamRepository>();
 

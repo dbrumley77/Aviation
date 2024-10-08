@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\dougl\OneDrive\Desktop\projects\Aviation
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Airport/Airport.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxBaXJwb3J0LmNzaHRtbA==
+[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Airport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Airport/GetAirport.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxHZXRBaXJwb3J0LmNzaHRtbA==
+[C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Airport/ViewAirport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydFxWaWV3QWlycG9ydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dougl/OneDrive/Desktop/projects/Aviation/Views/Falcon/Index.cshtml]

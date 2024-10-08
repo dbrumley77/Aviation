@@ -4,7 +4,9 @@
     {
 
         public int FalconID { get; set; }
-        public string AircraftType { get; set; }
+
+        public int GulfstreamID { get; set; }
+        
 
     }
 }

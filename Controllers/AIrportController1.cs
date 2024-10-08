@@ -13,12 +13,12 @@ namespace Aviation.Controllers
             
         }
 
-        public IActionResult GetAirport(Airport bird)
+        public IActionResult ViewAirport(string location)
         {
             try
             {
                 var client = new HttpClient();
-                var airportURL = "https://airport-info.p.rapidapi.com/airport";
+                var airportURL = $"https://airport-info.p.rapidapi.com/airport?iata={location}";
                 var airportResponse = client.GetStringAsync(airportURL).Result;
                 var airport = JsonConvert.DeserializeObject<Airport>(airportResponse);
 
@@ -30,6 +30,11 @@ namespace Aviation.Controllers
                 return View("Airport Not Found");
 
             }
+        }
+
+        public IActionResult Index(Airport airport)
+        {
+            return View(airport);
         }
     }
 }

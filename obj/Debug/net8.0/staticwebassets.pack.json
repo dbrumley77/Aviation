@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\wwwroot\\images\\USA MAP.jpg",
+      "PackagePath": "staticwebassets\\images\\USA MAP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\wwwroot\\images\\red_thumbtack.jpg",
+      "PackagePath": "staticwebassets\\images\\red_thumbtack.jpg"
+    },
+    {
       "Id": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

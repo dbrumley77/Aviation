@@ -20,3 +20,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.airport-page {
+    margin-bottom: 60px;
+    background-image: url('/images/USA MAP.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
