@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\red_thumbtack.jpg"
     },
     {
+      "Id": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\wwwroot\\images\\silhoutte_thumbtack.jpg",
+      "PackagePath": "staticwebassets\\images\\silhoutte_thumbtack.jpg"
+    },
+    {
       "Id": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

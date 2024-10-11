@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M4vp/8AbtAinEM3iIl+YKST0Yse0cty/aJtk/B1jZts=",
+  "Hash": "eg5uPe9HjvJMQvVZg8A5TolsaCabQAUt6o64Xx8y8Yg=",
   "Source": "Aviation",
   "BasePath": "_content/Aviation",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\red_thumbtack.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\wwwroot\\images\\silhoutte_thumbtack.jpg",
+      "SourceId": "Aviation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\wwwroot\\",
+      "BasePath": "_content/Aviation",
+      "RelativePath": "images/silhoutte_thumbtack.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\silhoutte_thumbtack.jpg"
     },
     {
       "Identity": "C:\\Users\\dougl\\OneDrive\\Desktop\\projects\\Aviation\\wwwroot\\images\\USA MAP.jpg",

@@ -22,9 +22,32 @@ body {
 }
 
 .airport-page {
-    margin-bottom: 60px;
-    background-image: url('/images/USA MAP.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+
+}
+
+#mapContainer {
+    width: 1300px;
+}
+
+#map {
+    width: 100%;
+}
+
+.tack {
+    height: 30px;
+    position: absolute;
+    
+}
+
+#ilg {
+    top: 416px;
+    left: 1192px;
+}
+#ags {
+    top: 624px;
+    left: 1056px;
+}
+#cha {
+    top: 568px;
+    left: 976px;
 }
